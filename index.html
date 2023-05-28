@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html class="html" lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ToDo List</title>
+  <meta name="description"
+  content="ToDo List - use me to not forget anything">
+  <link rel="stylesheet" href="css/style.css">
+  <script rel="preload"  src="js/granim.min.js" as="script"></script>
+
+  <!--favicons-->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#025da8">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+  <!--favicons-->
+
+</head>
+
+<style>
+.preloader {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  z-index: 9999;
+  justify-content: center;
+  align-items: center;
+}
+
+.preloader-logo {
+  color: #000;
+  font-weight: 600;
+  font-size: 20px;
+  margin-right: 25px;
+  margin-top: -2px;
+  position: relative;
+}
+
+.preloader-progress {
+  width: 0%;
+  height: 4px;
+  border-radius: 4px;
+  background: linear-gradient(to right, #189ccb, #0664b1);
+  animation: fill-progress 3s ease-in-out forwards;
+}
+</style>
+
+<body class="body">
+
+  <div class="preloader">
+    <div class="preloader-logo">ToDo List</div>
+    <div class="preloader-progress"></div>
+  </div>
+
+  <div class="plug">
+    <div class="plug-title">use a device with a large screen</div>
+  </div>
+
+  <div class="main-wrapper">
+
+    <canvas id="canvas-basic"></canvas>
+
+    <main class="main">
+
+      <div class="tasks-body tasks-body_empty">
+
+        <div class="add-block">
+        <input class="add-block-input" type="text" aria-label="Text your task here" placeholder="Add new task">
+        <button class="add-task-btn" type="button"><span class="flare"></span></button>
+
+        </div>
+
+        <div class="tasks-container">
+        </div>
+
+      </div>
+
+    </main>
+
+    <div class="settings-icon">
+      <div class="settings-container">
+        <div class="settings-container_top">
+
+          <span class="theme-header" data-translation-key="theme">Theme:</span>
+          <label class="switch">
+            <input class="switch__input" type="checkbox" role="switch">
+            <span class="switch__sr"></span>
+          </label>
+
+
+        </div>
+        <div class="settings-container_bottom">
+          <span class="choose-lang-header" data-translation-key="language">Language:</span>
+          <div class="label-container">
+          <label>
+          <input class="label-radio" type="radio" name="language" value="en" checked>
+          <span class="custom-radio"></span>
+            Eng
+          </label>
+          <label>
+          <input class="label-radio" type="radio" name="language" value="ru">
+          <span class="custom-radio"></span>
+            Rus
+          </label>
+          </div>
+        </div>
+      </div>
+      <!-- <button class="close-settings-icon"></button> -->
+    </div>
+
+    <div class="darth-bg"></div>
+
+    <a class="author" href="https://github.com/sergeywave" target="_blank">Sergey Wave's GitHub</a>
+
+  </div>
+
+<div class="popup-screen"></div>
+
+<script src="js/main.js"></script>
+
+</body>
+
+</html>
+

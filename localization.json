@@ -1,0 +1,10 @@
+{
+  "en": {
+    "theme": "Theme:",
+    "language": "Language:"
+  },
+  "ru": {
+    "theme": "Тема:",
+    "language": "Выбор языка:"
+  }
+}
