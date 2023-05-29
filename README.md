@@ -1,3 +1,6 @@
+[![Generic badge](https://img.shields.io/badge/Made%20with-Javascript-f7df1e.svg)](https://www.javascript.com)
+[![Generic badge](https://img.shields.io/github/license/sergeywave/vanilla-js-todo-list)]([https://www.javascript.com](https://github.com/sergeywave/vanilla-js-todo-list/blob/master/LICENSE))
+
 # [Vanilla JS ToDo list with deadlines](https://sergeywave.github.io/vanilla-js-todo-list/)
 ### Features:
 
