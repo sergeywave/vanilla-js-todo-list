@@ -26,4 +26,4 @@
 - [Granim](https://sarcadass.github.io/granim.js/)
   <br>
 
-<p align="center"><a href="https://sergeywave.github.io/vanilla-js-todo-list"><img max-width="800px" alt="The preview" src="/dist/img/prew.jpg" /></a></p>
+<p align="center"><a href="https://sergeywave.github.io/vanilla-js-todo-list"><img max-width="500px" alt="The preview" src="/dist/img/prew.jpg" /></a></p>
